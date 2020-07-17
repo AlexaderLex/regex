@@ -1,0 +1,91 @@
+ body {
+     background-color: #000;
+     color: #bbb;
+ }
+ 
+ form {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+ form label {
+     font-size: 20px;
+     font-weight: 700;
+ }
+ 
+ fieldset {
+     width: 44%;
+     margin: 0 auto;
+     text-align: center;
+ }
+ 
+ textarea {
+     height: auto;
+     max-height: 90vh;
+     box-sizing: border-box;
+     padding: .7em 1.5em;
+     width: 100%;
+ }
+ 
+ .area-one {
+     color: #009a00;
+ }
+ 
+ .area-two {
+     color: cornflowerblue;
+ }
+ 
+ #area-one {
+     background-color: cornflowerblue;
+     color: #fff;
+     font-size: 18px;
+     font-weight: 500;
+ }
+ 
+ #area-two {
+     background-color: #009a00;
+     color: #fff;
+     font-size: 18px;
+     font-weight: 500;
+ }
+ 
+ #btn {
+     margin: 0;
+     padding: 0;
+     width: 60px;
+     height: 90vh;
+     font-family: "Operator Mono light", serif;
+     font-size: 32px;
+     box-sizing: border-box;
+     border: 2px solid red;
+ }
+ 
+ footer p {
+     width: 100%;
+     background-color: salmon;
+     display: flex;
+     justify-content: center;
+     text-align: center;
+ }
+ 
+ .voodoo {
+     margin: 1em auto;
+     text-decoration: none;
+     text-transform: capitalize;
+     text-align: center;
+     color: #000;
+     font-size: 26px;
+     font-weight: 700;
+     position: relative;
+ }
+ 
+ .voodoo::after {
+     content: "";
+     width: 110%;
+     height: 3px;
+     background-color: #0f0;
+     position: absolute;
+     top: 109%;
+     left: -5%;
+ }

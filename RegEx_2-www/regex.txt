@@ -1,0 +1,47 @@
+
+let sent = "Equation is not for eQuality of the math. Iraq is my dream";
+
+let regex = new RegExp("[a-z]+q[^i][a-z]+", "gi");
+
+let result = sent.match(regex);
+
+
+let resIn = `\|${result}\|`;
+let sentIn = `\|${sent}\|`;
+
+
+
+let show = res.value;
+
+show = resIn + "\n\n" + regex;
+
+
+//res.value = "";
+
+========================================
+
+
+let num =Math.floor(Math.random()*fullSource.length);
+
+let title = fullSource[num].title + " index: " + num;
+
+//let sent = title;
+
+let sent = 'Houston, we have a problem with "string one" and "string two". Please respond';
+
+let regex = /"[^"\r\n]*"/;
+
+
+
+let result = sent.match(regex);
+let resIn = `\|${result}\|`;
+let sentIn = `\|${sent}\|`;
+
+
+res.value = `${sent} \n\n ${regex} \n\n ${resIn}`;
+
+//res.value = "";
+
+=========================================
+
+
